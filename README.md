@@ -1,2 +1,2 @@
 # Kasper-Template-
-A template took from graphberry and implemented by me.
+A template from Graphberry, implemented by me.
