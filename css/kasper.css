@@ -445,6 +445,11 @@ header nav .form i {
   height: 99.6%;
   background-color: rgb(0 0 0 / 40%);
 }
+@media (max-width: 768px) {
+  .video::before {
+    height: 98.3%;
+  }
+}
 .video video {
   width: 100%;
 }
@@ -458,10 +463,20 @@ header nav .form i {
   color: white;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .video .text {
+    padding: 10px;
+  }
+}
 .video .text h2 {
   margin: 0 0 30px;
   text-transform: uppercase;
   font-weight: normal;
+}
+@media (max-width: 768px) {
+  .video .text h2 {
+    margin: 15px 0;
+  }
 }
 .video .text p {
   margin-bottom: 30px;
